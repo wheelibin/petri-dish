@@ -1,0 +1,38 @@
+/* globals module */
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: "eslint:recommended",
+  parserOptions: {
+    ecmaVersion: 12,
+  },
+  rules: {},
+  globals: {
+    frameRate: true,
+    createCanvas: true,
+    windowWidth: true,
+    windowHeight: true,
+    createVector: true,
+    background: true,
+    fill: true,
+    circle: true,
+    noStroke: true,
+    stroke: true,
+    text: true,
+    random: true,
+    frameCount: true,
+    deltaTime: true,
+    p5: true,
+    height: true,
+    createElement: true,
+    resizeCanvas: true,
+    redraw: true,
+    createSlider: true,
+    keyIsPressed: true,
+    createCheckbox: true,
+    color: true,
+    randomGaussian: true,
+  },
+};
